@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shakeel Ahmad - ID Card</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Roboto, sans-serif;
+        }
+
+        body {
+            background: #d1d9e6;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .id-card {
+            width: 350px;
+            height: 600px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+            overflow: hidden;
+            text-align: center;
+            position: relative;
+        }
+
+        .card-header {
+            background: #0047ab;
+            color: white;
+            padding: 20px 10px;
+            font-weight: bold;
+            font-size: 14px;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+        }
+
+        .chip-area {
+            display: flex;
+            padding: 20px 25px;
+            align-items: center;
+        }
+
+        .gold-chip {
+            width: 45px;
+            height: 35px;
+            background: linear-gradient(135deg, #e6b800, #ffcc00, #b8860b);
+            border-radius: 6px;
+        }
+
+        .icon-box {
+            width: 110px;
+            height: 110px;
+            background: #fff;
+            border: 5px solid #0047ab;
+            border-radius: 50%;
+            margin: 10px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 55px;
+            box-shadow: 0 5px 15px rgba(0,71,171,0.2);
+        }
+
+        .name-title {
+            color: #1a1a1a;
+            font-size: 24px;
+            font-weight: 800;
+            margin-top: 10px;
+            text-transform: uppercase;
+        }
+
+        .designation {
+            color: #0047ab;
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            background: #eef2f7;
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 50px;
+        }
+
+        .info-grid {
+            text-align: left;
+            padding: 0 30px;
+            margin-top: 10px;
+        }
+
+        .info-item {
+            margin-bottom: 15px;
+        }
+
+        .label {
+            font-size: 11px;
+            color: #777;
+            font-weight: bold;
+            text-transform: uppercase;
+            display: block;
+        }
+
+        .value {
+            font-size: 15px;
+            color: #333;
+            font-weight: 600;
+        }
+
+        .verified-badge {
+            color: #28a745;
+            font-size: 12px;
+            margin-top: 5px;
+            display: flex;
+            align-items: center;
+        }
+
+        .card-footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background: #f4f7fa;
+            border-top: 1px solid #eee;
+            padding: 15px;
+            color: #0047ab;
+            font-weight: bold;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="id-card">
+        <div class="card-header">Official IT Consultant</div>
+        
+        <div class="chip-area">
+            <div class="gold-chip"></div>
+        </div>
+
+        <div class="icon-box">💻</div>
+
+        <h2 class="name-title">SHAKEEL AHMAD</h2>
+        <div class="designation">SEO + WEB CONTROLLER</div>
+
+        <div class="info-grid">
+            <div class="info-item">
+                <span class="label">Organization</span>
+                <span class="value">Star International Company</span>
+            </div>
+            
+            <div class="info-item">
+                <span class="label">Expertise</span>
+                <span class="value">Web Dev • SEO • Optimization</span>
+            </div>
+
+            <div class="info-item">
+                <span class="label">Contact for Projects</span>
+                <span class="value">0300-7297178</span>
+            </div>
+
+            <div class="verified-badge">
+                <span style="margin-right: 5px;">✔</span> Verified Industry Professional
+            </div>
+        </div>
+
+        <div class="card-footer">
+            Building Digital Excellence Since 2024
+        </div>
+    </div>
+
+</body>
+</html>
